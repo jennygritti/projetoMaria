@@ -1,0 +1,41 @@
+
+/* body{
+    margin: 0;
+    box-sizing: border-box;
+    height: 5000px;
+} */
+
+.bg__navbar{
+    background-color: #fff;
+}
+
+fs-100, h1{
+    font-size: 100px;
+    color: white;
+}
+
+.rounded__home{
+    background-color: white;
+}
+
+.container__home{
+    border: none;
+}
+
+.bg__home{
+    background-color: black;
+    height: 400px;
+}
+
+.bg__card-body{
+    background-color: black;
+}
+
+.color__card-title,
+.color__card-text{
+    color: white;
+}
+
+.bg__footer{
+    background-color: black;
+}
