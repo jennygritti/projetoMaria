@@ -5,6 +5,11 @@
     height: 5000px;
 } */
 
+ 
+html {
+    scroll-behavior: smooth;
+}
+
 .bg__navbar{
     background-color: #fff;
 }
@@ -14,6 +19,7 @@ fs-100, h1{
     color: white;
 }
 
+
 .rounded__home{
     background-color: white;
 }
@@ -21,6 +27,7 @@ fs-100, h1{
 .container__home{
     border: none;
 }
+
 
 .bg__home{
     background-color: black;
@@ -38,4 +45,31 @@ fs-100, h1{
 
 .bg__footer{
     background-color: black;
+}
+
+.contato__icon{
+    font-size: 50px;
+    color: white;
+}
+
+.contato__icon:hover{
+    color: rgb(104, 99, 99);
+}
+
+
+
+@media only screen and (max-width:780px)
+{
+    .bg__home{
+        height: 220px;
+    }
+
+    fs-100, h1{
+        font-size: 50px;
+        color: white;
+    }
+
+    .rounded__home{
+        width: 40px;
+    }
 }
